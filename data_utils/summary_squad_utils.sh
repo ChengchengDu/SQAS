@@ -1,0 +1,14 @@
+python summary_squad_utils.py \
+--data_dir /home/jazhan/data/ggw_data/org_data/ \
+--save_path /home/jazhan/data/ggw_data/ \
+--data_type val \
+--candidate_target_dir /home/jazhan/data/ggw_data/ie_data/ggw_ie/candidate_target_ie/val/ \
+--ie_dir /home/jazhan/data/ggw_data/ie_data/ggw_ie/target_ie/val/ \
+--mapping_dir /home/jazhan/data/ggw_data/ \
+--dataset_type val \
+--data_path /home/jazhan/data/ggw_data/ \
+--target_ie_path /home/jazhan/data/ggw_data/ie_data/ggw_ie/target_ie/ \
+--candidate_ie_path /home/jazhan/data/ggw_data/ie_data/ggw_ie/candidate_target_ie/ \
+--data_name ggw \
+--n_cpu 40 \
+--save_json_path /home/jazhan/code/query_based_summarization/data_utils/dealed_data/ggw/
